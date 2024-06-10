@@ -99,11 +99,11 @@ class JuegoDeDados:
         else: 
             print("Perdiste")
             
-        def simular_jugadas(self, cantidad): 
-            self.cantidad = cantidad
+    def simular_jugadas(self, cantidad): 
+        self.cantidad = cantidad
             
-            for i in range(1, cantidad):
-                self.jugar()
+        for i in range(1, cantidad):
+            self.Jugar()
                 
 jugada = JuegoDeDados()
 jugada.simular_jugadas(20)
